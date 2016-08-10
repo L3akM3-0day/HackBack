@@ -6,4 +6,3 @@ The script use the ip  in your auth.log and do some recon on the ip that Attempt
 The current module available are
 recon 
 * Shodan
-* 
