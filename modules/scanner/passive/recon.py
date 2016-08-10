@@ -4,7 +4,7 @@ class Shodan():
 	def __init__(self,ip):
 		
 		self.ip = ip
-		self.key = "7OThNwtEfTM7nwgAbHWt7yE72fUykNwT"
+		self.key = "YOUR_KEY"
 		self.url = "https://api.shodan.io/shodan/host/{}?key={}".format(self.ip,self.key)	
 		print("[+] Passive recon for {}".format(self.ip))
 		try:
